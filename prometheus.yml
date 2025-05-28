@@ -4,4 +4,4 @@ global:
 scrape_configs:
   - job_name: 'opensense_exporter'
     static_configs:
-      - targets: ['localhost:8000']
+      - targets: ['opensense_exporter:8000']
