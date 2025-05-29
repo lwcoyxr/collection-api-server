@@ -3,7 +3,7 @@ import httpx
 import time
 from prometheus_client import start_http_server, Gauge
 
-SENSEBOX_ID = os.getenv("SENSEBOX_ID", "whoop")
+SENSEBOX_ID = os.getenv("SENSEBOX_ID", "blank")
 EXPORT_PORT = 8000
 
 # Prometheus Gauges

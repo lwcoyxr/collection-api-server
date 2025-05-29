@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      - SENSEBOX_ID=whoop # replace with your real ID
+      - SENSEBOX_ID=blank
     ports:
       - "8000:8000"
 
